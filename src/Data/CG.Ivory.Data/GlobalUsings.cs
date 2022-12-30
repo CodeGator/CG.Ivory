@@ -1,0 +1,12 @@
+﻿global using AutoMapper;
+global using CG.EntityFrameworkCore;
+global using CG.Ivory.Data.Maps;
+global using CG.Ivory.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using CG.Ivory.Data.Repositories;
+global using CG.Validations;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using CG.Ivory.Data.Entities;
+global using CG.Ivory.Models;

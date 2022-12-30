@@ -1,0 +1,9 @@
+﻿global using CG.Ivory.Models;
+global using CG.Ivory.Repositories;
+global using Microsoft.Extensions.Logging;
+global using CG.Validations;
+global using CG.Ivory.Managers;
+global using CG.Seeding;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Configuration;
+global using System.ComponentModel.DataAnnotations;
