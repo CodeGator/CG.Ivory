@@ -121,7 +121,7 @@ public class SeedDirector : SeedDirectorBase<SeedDirector>
                 "Checking for existing TODO tasks"
                 );
 
-            // Are the existing TODO tasks?
+            // Are there existing TODO tasks?
             var hasExistingData = await _todoManager.AnyAsync(
                 cancellationToken
                 ).ConfigureAwait(false);
@@ -132,8 +132,8 @@ public class SeedDirector : SeedDirectorBase<SeedDirector>
                 // Log what we didn't do.
                 _logger.LogWarning(
                     "Skipping seeding TODO tasks because the 'force' flag " +
-                    "was not specified and there are existing text messages " +
-                    "in the database."
+                    "was not specified and there are existing rows in the " +
+                    "database."
                     );
                 return; // Nothing else to do!
             }
